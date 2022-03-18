@@ -1,0 +1,25 @@
+.TOP{
+background-color: blue;
+display: grid;
+min: height 80px;font-size: 100px;
+}
+.LEFT{
+    background-color: yellow; float: left;
+   min-height: 800px; height: 800px;width: 400px;
+}
+.RIGHT{   
+background-color: lightgreen;min-height: 800px;float: right;width: 400px;
+}
+.CENTRE{
+    background-color: blue;width: 800px;height: 800px;margin-left: 300px;margin-right: 300px;
+
+
+
+}
+footer{
+background-color: green;
+
+}
+
+
+

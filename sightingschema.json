@@ -1,0 +1,44 @@
+{
+"$schema": "http://json-schema.org/draft-04/schema",
+"title": "sighting",
+"description": "report on rara animals sighting in exland",
+"type":"object",
+"properties": {"sighting":{ "type":"array",
+    "items": {"type":"object",
+        "properties": {
+            "id":{"type":"integer"},
+            "animal":{"type":"string"},
+            "number":{"type":"integer"},
+            "location":{"type":"string"},
+            "date":{"type":"string"},
+            "time":{"type":"string"},
+            "observer":{"type":"object",
+                "properties":{
+                    "name":{"type":"string"},
+                    "email":{"type":"string"}
+                },
+                "obersation":{"type":"string"},
+
+                "animal":{"type":"string","enum":["Beaver", "hare", "Pine Martin" ,"Pine Martin", "otter" ,"Snowy Owl"]},
+
+
+
+                }
+                
+
+
+
+    
+            
+            }
+    
+    }
+
+            }
+
+
+
+    }
+
+
+}
